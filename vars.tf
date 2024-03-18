@@ -11,3 +11,5 @@ variable "engine_version" {}
 variable "no_of_instances" {}
 variable "instance_class" {}
 variable "skip_final_snapshot" {}
+variable "allow_subnets" {}
+variable "vpc_id" {}
